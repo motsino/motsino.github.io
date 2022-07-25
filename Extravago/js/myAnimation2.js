@@ -45,30 +45,16 @@ gsap.from(".search-blog-wrapper", {
 })
 
 // BLOGS
-let allBlogs = document.querySelector(".allBlogWrapper")
-gsap.utils.toArray(allBlogs.children).forEach(blog => {
-    gsap.from(blog, {
-        opacity: 0,
-        y: '100',
-        duration: 1,
-        delay: 0.5,
-        // scrollTrigger: {
-        //     trigger: blog,
-        // },
-    })
-})
-
-// TOPICS
-
-// let topic1 = document.querySelector(".trendsAndTricksWrapper")
-// gsap.utils.toArray(topic1.children).forEach(blog2 => {
-//     gsap.from(blog2, {
+// let allBlogs = document.querySelector(".allBlogWrapper")
+// gsap.utils.toArray(allBlogs.children).forEach(blog => {
+//     gsap.from(blog, {
+//         opacity: 0,
 //         y: '100',
 //         duration: 1,
 //         delay: 0.5,
-//         scrollTrigger: {
-//             trigger: blog2,
-//         },
+//         // scrollTrigger: {
+//         //     trigger: blog,
+//         // },
 //     })
 // })
 

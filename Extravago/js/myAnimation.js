@@ -73,11 +73,24 @@ gsap.utils.toArray('.section-intro').forEach(intro => {
 })
 
 // SERVICES ANIMATION
+// let services = document.querySelector(".service-content-wrapper")
+// gsap.utils.toArray(services.children).forEach(service => {
+//     gsap.from(service, {
+//         autoAlpha: 0,
+//         y: '100',
+//         duration: 1,
+//         delay: 1,
+//         scrollTrigger: {
+//             trigger: service,
+//             toggleActions: "play pause restart reset",
+//         },
+//     })
+// })
 gsap.from(".service-content-wrapper .services-content-1", {
     x: '-100',
     autoAlpha: 0,
-    duration: 0.5,
-    delay: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-1",
         toggleActions: "play pause restart reset",
@@ -86,8 +99,8 @@ gsap.from(".service-content-wrapper .services-content-1", {
 gsap.from(".service-content-wrapper .services-content-2", {
     y: '100',
     autoAlpha: 0,
-    duration: 0.5,
-    delay: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-2",
         toggleActions: "play pause restart reset",
@@ -96,8 +109,8 @@ gsap.from(".service-content-wrapper .services-content-2", {
 gsap.from(".service-content-wrapper .services-content-3", {
     x: '100',
     autoAlpha: 0,
-    duration: 0.5,
-    delay: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-3",
         toggleActions: "play pause restart reset",
@@ -106,7 +119,8 @@ gsap.from(".service-content-wrapper .services-content-3", {
 gsap.from(".service-content-wrapper .services-content-4", {
     x: '-100',
     autoAlpha: 0,
-    duration: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-4",
         toggleActions: "play pause restart reset",
@@ -115,7 +129,8 @@ gsap.from(".service-content-wrapper .services-content-4", {
 gsap.from(".service-content-wrapper .services-content-5", {
     y: '100',
     autoAlpha: 0,
-    duration: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-5",
         toggleActions: "play pause restart reset",
@@ -124,7 +139,8 @@ gsap.from(".service-content-wrapper .services-content-5", {
 gsap.from(".service-content-wrapper .services-content-6", {
     x: '100',
     autoAlpha: 0,
-    duration: 1,
+    duration: 1.5,
+    delay: 0.2,
     scrollTrigger: {
         trigger: ".service-content-wrapper .services-content-6",
         toggleActions: "play pause restart reset",
@@ -292,19 +308,18 @@ gsap.from("#accordion .faq-5", {
 
 
 // HOME BLOG ANIMATION
-let homeBlogs = document.querySelector(".home-blog")
-gsap.utils.toArray(homeBlogs.children).forEach(blog => {
-    gsap.from(blog, {
-        autoAlpha: 0,
-        y: '100',
-        duration: 1,
-        delay: 0.5,
-        scrollTrigger: {
-            trigger: blog,
-            toggleActions: "play pause restart reset",
-        },
-    })
-})
+
+// gsap.from('.home-blog', {
+//     autoAlpha: 0,
+//     y: '100',
+//     duration: 1,
+//     delay: 0.5,
+//     scrollTrigger: {
+//         trigger: blog,
+//         toggleActions: "play pause restart reset",
+//     },
+// })
+
 gsap.fromTo('.btn-blog', {
     autoAlpha: 0,
     y: '100',
