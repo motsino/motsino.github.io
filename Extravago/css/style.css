@@ -54,8 +54,6 @@ body {
     position: relative;
     background-color: var(--primary-bg-color);
     color: var(--primary-color);
-    scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

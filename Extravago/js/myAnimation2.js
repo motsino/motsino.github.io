@@ -44,6 +44,8 @@ gsap.from(".search-blog-wrapper", {
     delay: 1,
 })
 
+
+
 // BLOGS
 // let allBlogs = document.querySelector(".allBlogWrapper")
 // gsap.utils.toArray(allBlogs.children).forEach(blog => {
